@@ -18,7 +18,7 @@ metadata:
       icon: dashboard
       type: admin-dashboard
 spec:
-  type: graphql
+  type: service
   owner: backend-apps
   lifecycle: production
   definition: graphql
