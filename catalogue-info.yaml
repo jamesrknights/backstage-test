@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backend-apps
-  description: Monorepo for backendapps
+  description: An example of a Backstage application.
    annotations:
      github.com/project-slug: collinsonx/backend-apps
   #   backstage.io/techdocs-ref: dir:.
