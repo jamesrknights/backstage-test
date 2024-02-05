@@ -14,5 +14,6 @@ metadata:
     - nodejs
 spec:
   type: service
-  owner: james.knights@collinsonx.com
+  owner: backend-apps
+  system: backend-apps
   lifecycle: production
