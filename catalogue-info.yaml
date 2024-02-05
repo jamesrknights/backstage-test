@@ -4,8 +4,7 @@ metadata:
   name: backend-apps
   description: Mono-repo for all backend apis, such as booking, catalogue, consumer, entitlement, etc. 
   labels:
-    collinsonx/type: api
-  namespace: internal-systems
+    collinsonx/type: apis
   tags:
     - javascript
     - typescript
