@@ -7,6 +7,8 @@ metadata:
   # annotations:
   #   github.com/project-slug: backstage/backstage
   #   backstage.io/techdocs-ref: dir:.
+  tags:
+    - javascript
 spec:
   type: service
   owner: james.knights@collinsonx.com
