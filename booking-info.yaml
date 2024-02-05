@@ -1,7 +1,6 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  namespace: internal-systems
   name: booking-api
   description: APIs for booking.
   # Example for optional annotations
