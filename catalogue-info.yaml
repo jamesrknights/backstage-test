@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backend-apps
-  description: Mono-repo for all backend APIs, such as booking, catalogue, consumer, entitlement, etc.
+  description: Monorepo for backendapps
    annotations:
      github.com/project-slug: collinsonx/backend-apps
   #   backstage.io/techdocs-ref: dir:.
