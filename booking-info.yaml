@@ -15,4 +15,5 @@ metadata:
       type: admin-dashboard
 spec:
   type: graphql
+  owner: backend-apps
   lifecycle: production
