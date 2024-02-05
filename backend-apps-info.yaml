@@ -1,12 +1,13 @@
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: System
 metadata:
-  name: gateway-api
-  description: Federated Graph for subgraphs.
+  name: backend-apps
+  namespace: internal-systems
+  description: Monorepo for backend apis.
   # Example for optional annotations
-  annotations:
+  # annotations:
   #   github.com/project-slug: backstage/backstage
-     backstage.io/techdocs-ref: dir:.
+  #   backstage.io/techdocs-ref: dir:.
   tags:
     - javascript
     - typescript
@@ -23,5 +24,4 @@ spec:
   system: backend-apps
   lifecycle: production
   providesApis:
-    - booking-api
-  
+    - gateway-api
