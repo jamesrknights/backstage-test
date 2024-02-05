@@ -22,4 +22,6 @@ spec:
   owner: backend-apps
   lifecycle: production
   definition: graphql
+  providesApis:
+    - booking-api
   
