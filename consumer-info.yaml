@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: consumer-api
+  description: The Consumer API
+  tags:
+    - javascript
+    - typescript
+    - graphql
+    - nodejs
+  links:
+    - url: https://consumer-api.test.cergea.com/graphql
+      title: Consumer API GraphQL
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: openapi
+  owner: guests
+  lifecycle: production
+  definition: graphql

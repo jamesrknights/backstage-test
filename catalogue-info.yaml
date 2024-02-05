@@ -24,4 +24,5 @@ spec:
   definition: graphql
   providesApis:
     - booking-api
+    - consumer-api
   
