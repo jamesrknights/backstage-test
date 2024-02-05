@@ -17,3 +17,6 @@ spec:
   owner: backend-apps
   system: backend-apps
   lifecycle: production
+  providesApis:
+    - name: booking-api
+  
