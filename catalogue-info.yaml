@@ -1,23 +1,13 @@
-apiVersion: collinsonx/v1alpha1
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backend-apps
-  description: Mono-repo for all backend apis, such as booking, catalogue, consumer, entitlement, etc. 
-  labels:
-    collinsonx/type: apis
-  tags:
-    - javascript
-    - typescript
-    - nodejs
-    - express
-    - graphql
-  links:
-    - url: https://gateway-api.test.cergea.com/graphql
-      title: Gateway API
-      icon: dashboard
-      type: admin-dashboard
+  name: collinsonx-backstage
+  description: An example of a Backstage application.
+  # Example for optional annotations
+  # annotations:
+  #   github.com/project-slug: backstage/backstage
+  #   backstage.io/techdocs-ref: dir:.
 spec:
-  type: service
-  lifecycle: production
-  owner: guests
-  system: examples
+  type: website
+  owner: john@example.com
+  lifecycle: experimental
