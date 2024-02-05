@@ -1,12 +1,8 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: booking-api
-  description: APIs for booking.
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
+  description: The Booking API
   tags:
     - javascript
     - typescript
@@ -18,7 +14,5 @@ metadata:
       icon: dashboard
       type: admin-dashboard
 spec:
-  type: http
-  owner: backend-apps
-  system: backend-apps
+  type: graphql
   lifecycle: production
