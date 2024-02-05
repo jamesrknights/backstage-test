@@ -1,0 +1,66 @@
+apiVersion: collinsonx/v1alpha1
+kind: Component
+metadata:
+  name: backend-apps
+  description: Mono-repo for all backend apis, such as booking, catalogue, consumer, entitlement, etc. 
+  labels:
+    collinsonx/type: api
+  namespace: internal-systems
+  tags:
+    - javascript
+    - typescript
+    - nodejs
+    - express
+    - graphql
+  links:
+    - url: https://gateway-api.test.cergea.com/graphql
+      title: Gateway API
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: service
+  lifecycle: production
+  owner: backend-apps
+  system: backend-apps
+  providesApis:
+    - name: booking-api
+      description: Booking API
+      url: https://booking-api.test.cergea.com
+      type: rest
+      lifecycle: production
+      owner: booking-api
+      system: booking-api
+      tags:
+        - nodejs
+        - express
+        - graphql
+      links:
+        - url: https://booking-api.test.cergea.com
+          title: Booking API Documentation
+          icon: documentation
+          type: documentation
+      providesEvents:
+        - name: booking
+          description: Booking events
+          type: kafka
+          topic: test-lifestylex-booking.in-eu-west-1
+          schema: test-lifestylex-booking.in-eu-west-1-value
+          lifecycle: production
+          owner: booking-api
+          system: booking-api
+          tags:
+            - kafka
+            - schema-registry
+            - confluent
+        - name: booking-email
+          description: Booking email events
+          type: kafka
+          topic: test-lifestylex-salesforce-email.in-eu-west-1
+          schema: test-lifestylex-salesforce-email.in-eu-west-1-value
+          lifecycle: production
+          owner: booking-api
+          system: booking-api
+          tags:
+            - kafka
+            - schema-registry
+            - confluent
