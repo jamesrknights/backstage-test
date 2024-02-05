@@ -1,13 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: collinsonx-backstage
-  description: An example of a Backstage application.
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
+  name: backend-apps
+  description: Mono-repo for all backend APIs, such as booking, catalogue, consumer, entitlement, etc.
+   annotations:
+     github.com/project-slug: collinsonx/backend-apps
   #   backstage.io/techdocs-ref: dir:.
 spec:
-  type: website
-  owner: john@example.com
-  lifecycle: experimental
+  type: service
+  owner: james.knights@collinsongroup.com
+  lifecycle: production
