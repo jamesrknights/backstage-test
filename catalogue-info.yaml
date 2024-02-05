@@ -5,9 +5,9 @@ metadata:
   namespace: internal-systems
   description: Monorepo for backend apis.
   # Example for optional annotations
-  # annotations:
+  annotations:
   #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
+     backstage.io/techdocs-ref: dir:.
   tags:
     - javascript
     - typescript
