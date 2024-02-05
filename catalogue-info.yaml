@@ -13,11 +13,6 @@ metadata:
     - typescript
     - graphql
     - nodejs
-  links:
-    - url: https://gateway-api.test.cergea.com/graphql
-      title: Gateway API
-      icon: dashboard
-      type: admin-dashboard
 spec:
   type: service
   owner: backend-apps
