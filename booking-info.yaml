@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  namespace: internal-systems
+  name: booking-api
+  description: APIs for booking.
+  # Example for optional annotations
+  # annotations:
+  #   github.com/project-slug: backstage/backstage
+  #   backstage.io/techdocs-ref: dir:.
+  tags:
+    - javascript
+    - typescript
+    - graphql
+    - nodejs
+  links:
+    - url: https://booking-api.test.cergea.com/graphql
+      title: Booking API GraphQL
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: service
+  owner: backend-apps
+  system: backend-apps
+  lifecycle: production
