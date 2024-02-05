@@ -2,7 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backend-apps
-  namespace: internal-systems
   description: Monorepo for backend apis.
   # Example for optional annotations
   annotations:
