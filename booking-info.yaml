@@ -15,6 +15,6 @@ metadata:
       type: admin-dashboard
 spec:
   type: service
-  owner: backend-apps
+  owner: guests
   lifecycle: production
   definition: graphql
