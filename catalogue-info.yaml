@@ -18,5 +18,5 @@ spec:
   system: backend-apps
   lifecycle: production
   providesApis:
-    - name: booking-api
+    - booking-api
   
