@@ -19,7 +19,7 @@ metadata:
       icon: dashboard
       type: admin-dashboard
 spec:
-  type: service
+  type: http
   owner: backend-apps
   system: backend-apps
   lifecycle: production
