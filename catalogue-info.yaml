@@ -9,6 +9,9 @@ metadata:
   #   backstage.io/techdocs-ref: dir:.
   tags:
     - javascript
+    - typescript
+    - graphql
+    - nodejs
 spec:
   type: service
   owner: james.knights@collinsonx.com
