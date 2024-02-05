@@ -18,10 +18,8 @@ metadata:
       icon: dashboard
       type: admin-dashboard
 spec:
-  type: service
+  type: graphql
   owner: backend-apps
-  system: backend-apps
   lifecycle: production
-  providesApis:
-    - booking-api
+  definition: graphql
   

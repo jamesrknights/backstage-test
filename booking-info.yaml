@@ -17,4 +17,4 @@ spec:
   type: graphql
   owner: backend-apps
   lifecycle: production
-  definition: grpahql
+  definition: graphql
