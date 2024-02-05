@@ -14,7 +14,7 @@ metadata:
       icon: dashboard
       type: admin-dashboard
 spec:
-  type: service
+  type: openapi
   owner: guests
   lifecycle: production
   definition: graphql

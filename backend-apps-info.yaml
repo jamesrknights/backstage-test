@@ -18,7 +18,7 @@ metadata:
       icon: dashboard
       type: admin-dashboard
 spec:
-  type: openapi
+  type: service
   owner: backend-apps
   system: backend-apps
   lifecycle: production
