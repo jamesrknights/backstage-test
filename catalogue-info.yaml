@@ -20,5 +20,5 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: backend-apps
-  system: backend-apps
+  owner: guests
+  system: examples
